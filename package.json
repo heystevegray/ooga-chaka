@@ -1,0 +1,20 @@
+{
+  "name": "ooga-chaka",
+  "version": "1.0.0",
+  "description": "A collection of custom React Hooks.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "custom",
+    "react",
+    "hooks"
+  ],
+  "author": "Steve Gray",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

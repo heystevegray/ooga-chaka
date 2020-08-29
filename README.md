@@ -16,6 +16,6 @@ ooga-chaka
 
 ## Window Events
 
-### `useOnlineStatus`
+### [`useOnlineStatus`](https://github.com/heystevegray/ooga-chaka/blob/master/src/docs/useOnlineStatus.md)
 
 A React Hook that subscribes to `window` [online](https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event) and [offline](https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event) events.

@@ -11,6 +11,7 @@
     "react",
     "hooks"
   ],
+  "repository": "https://github.com/heystevegray/ooga-chaka",
   "author": "Steve Gray",
   "license": "ISC",
   "peerDependencies": {

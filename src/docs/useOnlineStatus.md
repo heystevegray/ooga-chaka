@@ -6,7 +6,7 @@ A React Hook that subscribes to `window` [online](https://developer.mozilla.org/
 
 ```tsx
 import React, { useState, useEffect } from "react";
-import { useOnlineStatus } from "../hooks";
+import { useOnlineStatus } from "ooga-chaka";
 
 const App = () => {
   const [status, setStatus] = useState("");

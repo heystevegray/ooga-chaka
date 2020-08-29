@@ -5,7 +5,7 @@
 ooga-chaka
 </h1>
 <p>A collection of my custom React Hooks</p>
-<pre>npm i ooga-chaka</pre>
+<pre>npm i <a href="https://www.npmjs.com/package/ooga-chaka">ooga-chaka</a></pre>
 </div>
 
 - [Hooks](#hooks)

@@ -6,7 +6,7 @@ A React Hook that subscribes to `window` [online](https://developer.mozilla.org/
 
 ```tsx
 import React, { useState, useEffect } from "react";
-import { useOnlineStatus } from "ooga-chaka";
+import { useOnlineStatus } from "../hooks";
 
 const App = () => {
   const [status, setStatus] = useState("");
@@ -28,6 +28,7 @@ const App = () => {
         alignItems: "center",
         justifyContent: "center",
         padding: "3rem",
+        color: "#ffffff",
       }}
     >
       <h1>{status}</h1>

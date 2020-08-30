@@ -6,6 +6,9 @@
 <a href="https://www.npmjs.com/package/ooga-chaka">
 <img src="https://img.shields.io/npm/v/ooga-chaka" alt="npm package" />
 </a>
+<a href="https://www.npmjs.com/package/ooga-chaka">
+<img src="https://img.shields.io/npm/dt/ooga-chaka" alt="npm downloads" />
+</a>
 </div>
 
 - [Installation](#installation)

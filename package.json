@@ -1,6 +1,6 @@
 {
   "name": "ooga-chaka",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of custom React Hooks.",
   "main": "lib/index.js",
   "types": "lib",

@@ -1,16 +1,21 @@
-<div align="center" background="black">
-<h1>
+<div align="center">
 <br />
 <br />
-ooga-chaka
-</h1>
+<h1>ooga-chaka</h1>
 <p>A collection of my custom React Hooks</p>
-<pre>npm i <a href="https://www.npmjs.com/package/ooga-chaka">ooga-chaka</a></pre>
+<a href="https://www.npmjs.com/package/ooga-chaka">
+<img src="https://img.shields.io/npm/v/ooga-chaka" alt="npm package" />
+</a>
 </div>
 
+- [Installation](#installation)
 - [Hooks](#hooks)
 	- [Window Events](#window-events)
 		- [`useOnlineStatus`](#useonlinestatus)
+
+# Installation
+
+<pre align="center">npm install <a href="https://www.npmjs.com/package/ooga-chaka">ooga-chaka</a></pre>
 
 # Hooks
 

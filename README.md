@@ -13,8 +13,8 @@
 
 - [Installation](#installation)
 - [Hooks](#hooks)
-	- [Window Events](#window-events)
-		- [`useOnlineStatus`](#useonlinestatus)
+  - [Window Events](#window-events)
+    - [`useOnlineStatus`](#useonlinestatus)
 
 # Installation
 

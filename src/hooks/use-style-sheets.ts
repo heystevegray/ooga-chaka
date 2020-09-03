@@ -16,12 +16,12 @@ const useStyleSheets = ({ initialState = false }): StyleSheet => {
           stylesheet.disabled = disableStyleSheets;
         } catch (e) {
           console.warn(
-            `usStyleSheets - Access to stylesheet ${stylesheet.href} is denied. Ignoring...`
+            `useStyleSheets - Access to stylesheet ${stylesheet.href} is denied. Ignoring...`
           );
         }
       });
     } catch (error) {
-      console.error(`usStyleSheets - Error parsing stylesheets 😬`);
+      console.error(`useStyleSheets - Error parsing stylesheets 😬`);
     }
   }, [disableStyleSheets]);
 

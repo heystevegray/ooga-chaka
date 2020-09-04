@@ -6,8 +6,9 @@
   "types": "lib",
   "scripts": {
     "build": "tsc -p .",
-    "test": "jest",
-    "format": "prettier --write ."
+    "test": "jest --verbose",
+    "format": "prettier --write .",
+    "package": "npm run test && npm run format && npm run build"
   },
   "keywords": [
     "custom",

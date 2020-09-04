@@ -6,20 +6,22 @@ interface StyleSheet {
   styleSheetCount: number;
 }
 
-const useStyleSheets = ({ initialState = false }): StyleSheet => {
+const useStyleSheets = (initialState = false): StyleSheet => {
   const [disableStyleSheets, setDisableStyleSheets] = useState(initialState);
 
   useEffect(() => {
     try {
-      [...document.styleSheets].forEach((stylesheet: CSSStyleSheet) => {
+      for (let i = 0; i < document.styleSheets.length; i++) {
+        const styleSheet: Partial<CSSStyleSheet> = document.styleSheets[i];
+
         try {
-          stylesheet.disabled = disableStyleSheets;
+          styleSheet.disabled = disableStyleSheets;
         } catch (e) {
           console.warn(
-            `useStyleSheets - Access to stylesheet ${stylesheet.href} is denied. Ignoring...`
+            `useStyleSheets - Access to stylesheet ${styleSheet.href} is denied. Ignoring...`
           );
         }
-      });
+      }
     } catch (error) {
       console.error(`useStyleSheets - Error parsing stylesheets 😬`);
     }

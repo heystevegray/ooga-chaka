@@ -39,7 +39,10 @@ const App = () => {
       }}
     >
       <h1>{status}</h1>
-      <button onClick={() => setDisableStyleSheets(!disableStyleSheets)}>
+      <button onClick={() => setDisableStyleSheets(false)}>
+        Enable Stylesheets
+      </button>
+      <button onClick={() => setDisableStyleSheets(true)}>
         Disable Stylesheets
       </button>
     </div>

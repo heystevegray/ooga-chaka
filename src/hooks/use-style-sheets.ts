@@ -6,8 +6,8 @@ interface StyleSheet {
   styleSheetCount: number;
 }
 
-const useStyleSheets = (initialState = false): StyleSheet => {
-  const [disableStyleSheets, setDisableStyleSheets] = useState(initialState);
+const useStyleSheets = (): StyleSheet => {
+  const [disableStyleSheets, setDisableStyleSheets] = useState(false);
 
   useEffect(() => {
     try {

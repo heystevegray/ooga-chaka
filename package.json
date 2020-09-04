@@ -22,10 +22,16 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run package"
+    }
+  },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.4.1",
     "@types/jest": "^26.0.13",
     "@types/react": "^16.9.49",
+    "husky": "^4.2.5",
     "jest": "^26.4.2",
     "prettier": "^2.1.1",
     "react": "^16.13.1",

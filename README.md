@@ -13,10 +13,10 @@
 
 - [Installation](#installation)
 - [Hooks](#hooks)
-	- [Window Events](#window-events)
-		- [`useOnlineStatus`](#useonlinestatus)
-	- [Document](#document)
-		- [`useStyleSheets`](#usestylesheets)
+  - [Window Events](#window-events)
+    - [`useOnlineStatus`](#useonlinestatus)
+  - [Document](#document)
+    - [`useStyleSheets`](#usestylesheets)
 
 # Installation
 

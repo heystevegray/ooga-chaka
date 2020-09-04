@@ -6,7 +6,9 @@
   "types": "lib",
   "scripts": {
     "build": "tsc -p .",
-    "test": "jest"
+    "test": "jest --verbose",
+    "format": "prettier --write .",
+    "package": "npm run test && npm run format && npm run build"
   },
   "keywords": [
     "custom",
@@ -22,9 +24,10 @@
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.4.1",
-    "@types/jest": "^26.0.10",
-    "@types/react": "^16.9.48",
+    "@types/jest": "^26.0.13",
+    "@types/react": "^16.9.49",
     "jest": "^26.4.2",
+    "prettier": "^2.1.1",
     "react": "^16.13.1",
     "react-test-renderer": "^16.13.1",
     "ts-jest": "^26.3.0",

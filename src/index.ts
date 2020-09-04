@@ -1,2 +1,3 @@
 import useOnlineStatus from "./hooks/use-online-status";
-export { useOnlineStatus };
+import useStyleSheets from "./hooks/use-style-sheets";
+export { useOnlineStatus, useStyleSheets };

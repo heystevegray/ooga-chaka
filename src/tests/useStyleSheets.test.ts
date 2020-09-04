@@ -14,13 +14,3 @@ test("styleSheetCount should be defined", () => {
 test("disableStyleSheets should be defined", () => {
   expect(result.current.disableStyleSheets).toBeDefined();
 });
-
-test("disableStyleSheets should initially be false", () => {
-  const { result } = renderHook(() => useStyleSheets(false));
-  expect(result.current.disableStyleSheets).toBe(false);
-});
-
-test("disableStyleSheets should initially be true", () => {
-  const { result } = renderHook(() => useStyleSheets(true));
-  expect(result.current.disableStyleSheets).toBe(true);
-});

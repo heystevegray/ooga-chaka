@@ -1,6 +1,6 @@
 # `useStyleSheets`
 
-A React Hook that disables or enables all [CSS stylesheets](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) in your application. Ya let's be honest, this was just a fluff hook for the portfolio 🤓.
+A React Hook that disables or enables all [CSS stylesheets](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) in your application. Ya let's be honest, this was just a fluff hook for the portfolio 🤓 haha.
 
 ## Usage
 

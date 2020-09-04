@@ -13,10 +13,10 @@
 
 - [Installation](#installation)
 - [Hooks](#hooks)
-  - [Window Events](#window-events)
-    - [`useOnlineStatus`](#useonlinestatus)
-  - [Document](#document)
-    - [`useStyleSheets`](#usestylesheets)
+	- [Window Events](#window-events)
+		- [`useOnlineStatus`](#useonlinestatus)
+	- [Document](#document)
+		- [`useStyleSheets`](#usestylesheets)
 
 # Installation
 
@@ -32,6 +32,6 @@ A React Hook that subscribes to `window` [online](https://developer.mozilla.org/
 
 ## Document
 
-### [`useStyleSheets`]()
+### [`useStyleSheets`](https://github.com/heystevegray/ooga-chaka/blob/master/src/docs/useStyleSheets.md)
 
 A React Hook that disables or enables all [CSS stylesheets](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) in your application.

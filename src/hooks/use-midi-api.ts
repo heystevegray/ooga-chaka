@@ -1,32 +1,40 @@
-import { useState, useEffect, Dispatch, SetStateAction } from "react";
+import { useState, useEffect } from "react";
 
 // 🙃😝 haha
 interface MIDInterface {
-  midiAccess: WebMidi.MIDIAccess;
-  isMidiSupported: boolean;
+  midiAccess: WebMidi.MIDIAccess | undefined;
+  midiSupported: boolean | undefined;
 }
 
-const useMidiApi = (): MIDInterface | undefined => {
-  const [midi, setMidi] = useState<MIDInterface>();
+const getMidiAccess = async (): Promise<WebMidi.MIDIAccess> => {
+  return await navigator.requestMIDIAccess();
+};
 
-  const getMidiAccess = async (): Promise<WebMidi.MIDIAccess> => {
-    return await navigator.requestMIDIAccess();
-  };
+const getMidiSupport = async (): Promise<boolean> => {
+  const access = await getMidiAccess();
+  return access ? true : false;
+};
 
-  useEffect(() => {
-    console.log("Internal", { midi });
-  }, [midi]);
+const useMidiApi = (): MIDInterface => {
+  const [midi, setMidi] = useState<MIDInterface>({
+    midiSupported: undefined,
+    midiAccess: undefined,
+  });
+
+  //   useEffect(() => {
+  //     // console.log("Internal", { midi });
+  //   }, [midi]);
 
   useEffect(() => {
     console.log("use-midi-api!");
-    async function init() {
-      const access = await getMidiAccess();
-      const supported = access ? true : false;
+    const initialize = async (): Promise<any> => {
+      setMidi({
+        midiSupported: await getMidiSupport(),
+        midiAccess: await getMidiAccess(),
+      });
+    };
 
-      console.log({ access, supported });
-      setMidi({ isMidiSupported: supported, midiAccess: access });
-    }
-    init();
+    initialize();
   }, []);
 
   return midi;

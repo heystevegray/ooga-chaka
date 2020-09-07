@@ -13,12 +13,12 @@
 
 - [Installation](#installation)
 - [Hooks](#hooks)
-	- [Window Events](#window-events)
-		- [`useOnlineStatus`](#useonlinestatus)
-	- [Document](#document)
-		- [`useStyleSheets`](#usestylesheets)
-	- [Web APIs](#web-apis)
-		- [`useMidiApi`](#usemidiapi)
+  - [Window Events](#window-events)
+    - [`useOnlineStatus`](#useonlinestatus)
+  - [Document](#document)
+    - [`useStyleSheets`](#usestylesheets)
+  - [Web APIs](#web-apis)
+    - [`useMidiApi`](#usemidiapi)
 
 # Installation
 

@@ -6,7 +6,7 @@ A React Hook that connects your app to the [Web MIDI API](https://webaudio.githu
 
 ```tsx
 import React, { useEffect } from "react";
-import useMidiApi from "./hooks/use-midi";
+import { useMidiAPi } from "ooga-chaka";
 
 const App = () => {
   const data = useMidiApi();

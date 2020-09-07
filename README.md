@@ -13,10 +13,12 @@
 
 - [Installation](#installation)
 - [Hooks](#hooks)
-  - [Window Events](#window-events)
-    - [`useOnlineStatus`](#useonlinestatus)
-  - [Document](#document)
-    - [`useStyleSheets`](#usestylesheets)
+	- [Window Events](#window-events)
+		- [`useOnlineStatus`](#useonlinestatus)
+	- [Document](#document)
+		- [`useStyleSheets`](#usestylesheets)
+	- [Web APIs](#web-apis)
+		- [`useMidiApi`](#usemidiapi)
 
 # Installation
 
@@ -35,3 +37,9 @@ A React Hook that subscribes to `window` [online](https://developer.mozilla.org/
 ### [`useStyleSheets`](https://github.com/heystevegray/ooga-chaka/blob/master/src/docs/useStyleSheets.md)
 
 A React Hook that disables or enables all [CSS stylesheets](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) in your application.
+
+## Web APIs
+
+### [`useMidiApi`](https://github.com/heystevegray/ooga-chaka/blob/master/src/docs/useMidiApi.md)
+
+A React Hook that connects your app to the [Web MIDI API](https://webaudio.github.io/web-midi-api/). This allows you to connect a Piano that supports USB MIDI to your React app and get real time [MIDI Messages](https://developer.mozilla.org/en-US/docs/Web/API/MIDIMessageEvent), plus more.

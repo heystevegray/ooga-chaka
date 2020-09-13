@@ -17,6 +17,8 @@
     - [`useOnlineStatus`](#useonlinestatus)
   - [Document](#document)
     - [`useStyleSheets`](#usestylesheets)
+  - [Utility](#utility)
+    - [`useRandomBetween`](#userandombetween)
 
 # Installation
 
@@ -35,3 +37,9 @@ A React Hook that subscribes to `window` [online](https://developer.mozilla.org/
 ### [`useStyleSheets`](https://github.com/heystevegray/ooga-chaka/blob/master/src/docs/useStyleSheets.md)
 
 A React Hook that disables or enables all [CSS stylesheets](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) in your application.
+
+## Utility
+
+### [`useRandomBetween`](https://github.com/heystevegray/ooga-chaka/blob/master/src/docs/useRandomBetween.md)
+
+A React Hook that returns a [random number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) between the specified `min` and `max` values.

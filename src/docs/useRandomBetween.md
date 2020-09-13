@@ -82,7 +82,6 @@ const randomFloat = useRandomBetween(false, min, max);
         </pre>
         <h3>Results</h3>
         <code>{status}</code>
-
         <br />
         <br />
       </div>

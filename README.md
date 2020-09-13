@@ -13,12 +13,12 @@
 
 - [Installation](#installation)
 - [Hooks](#hooks)
-	- [Window Events](#window-events)
-		- [`useOnlineStatus`](#useonlinestatus)
-	- [Document](#document)
-		- [`useStyleSheets`](#usestylesheets)
-	- [Utility](#utility)
-		- [`useRandomBetween`](#userandombetween)
+  - [Window Events](#window-events)
+    - [`useOnlineStatus`](#useonlinestatus)
+  - [Document](#document)
+    - [`useStyleSheets`](#usestylesheets)
+  - [Utility](#utility)
+    - [`useRandomBetween`](#userandombetween)
 
 # Installation
 

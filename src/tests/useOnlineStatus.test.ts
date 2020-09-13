@@ -1,5 +1,5 @@
 import { renderHook } from "@testing-library/react-hooks";
-import useOnlineStatus from "../hooks/use-online-status";
+import { useOnlineStatus } from "../index";
 
 test("useOnlineStatus should match navigator.online", () => {
   const { result } = renderHook(() => useOnlineStatus());

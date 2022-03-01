@@ -4,11 +4,15 @@
   "description": "A collection of custom React Hooks.",
   "main": "lib/index.js",
   "types": "lib",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "tsc -p .",
     "test": "jest --verbose",
     "format": "prettier --write .",
-    "package": "npm run test && npm run format && npm run build"
+    "package": "npm run test && npm run format && npm run build",
+    "release": "npx np"
   },
   "keywords": [
     "custom",

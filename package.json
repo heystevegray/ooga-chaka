@@ -22,11 +22,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run package"
-    }
-  },
   "devDependencies": {
     "@testing-library/react-hooks": "^7.0.0",
     "@types/jest": "^26.0.23",

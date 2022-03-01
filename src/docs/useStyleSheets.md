@@ -11,11 +11,8 @@ import { useStyleSheets } from "ooga-chaka";
 const App = () => {
   const [status, setStatus] = useState("");
 
-  const {
-    disableStyleSheets,
-    setDisableStyleSheets,
-    styleSheetCount,
-  } = useStyleSheets();
+  const { disableStyleSheets, setDisableStyleSheets, styleSheetCount } =
+    useStyleSheets();
 
   useEffect(() => {
     const status = disableStyleSheets ? "Disabled" : "Enabled";
